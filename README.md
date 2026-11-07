@@ -1,5 +1,7 @@
 # Ishta P Jain | Portfolio
 
+Live : https://myportfolio-alpha-eosin-27.vercel.app/
+
 A pastel, playful personal portfolio built with plain HTML, CSS and a little JavaScript. No frameworks and no build step, so you can open it straight in a browser.
 
 ## Features
