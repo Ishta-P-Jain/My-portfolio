@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ishta P Jain | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Ishta P Jain, an aspiring full stack developer and open source contributor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <a href="#home" class="logo">Ishta<span>.</span></a>
+    <div class="links" id="links">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div style="display:flex;gap:10px;align-items:center">
+      <button class="toggle" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M5.2 18.8l1.6-1.6M17.2 6.8l1.6-1.6"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
+      </button>
+      <button class="toggle menu-btn" id="menu" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <span class="shape sh1"></span><span class="shape sh2"></span><span class="shape sh3"></span><span class="shape sh4"></span><span class="shape sh5"></span>
+  <div class="wrap">
+    <p class="hello reveal">Hello, I'm</p>
+    <h1 class="reveal">Ishta P <em>Jain</em></h1>
+    <p class="role reveal">Full Stack Developer</p>
+    <p class="lead reveal">A computer science student who builds web applications end to end, from database design and APIs to AI-powered interfaces, and enjoys exploring whatever is new.</p>
+    <div class="cta reveal">
+      <a class="btn primary" href="#projects">View my work
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn" href="Ishta_P_Jain_Resume.pdf" download>Download resume
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></svg></a>
+    </div>
+    <div class="socials reveal">
+      <a href="https://github.com/Ishta-P-Jain" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="https://www.linkedin.com/in/ishta-p-jain/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3V9.5zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4V9.5z"/></svg></a>
+      <a href="mailto:ishta.p.jain006@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about">
+    <span class="eyebrow reveal">About me</span>
+    <h2 class="reveal">Curious by nature, builder by habit</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>I'm a Computer Science Engineering student at N M A M Institute of Technology, Karkala, with a strong foundation in Java, Python and MySQL. I enjoy turning ideas into working software: designing databases and APIs, integrating AI features, and debugging real-world issues.</p>
+        <p>I love exploration, in technology and in hobbies alike. When there are several options on the table, I'll usually pick the newer one. That curiosity is what led me to open source, where I've contributed through GirlScript Summer of Code 2026 and the Wikimedia Foundation's Road to Wiki program.</p>
+        <p>Right now I'm looking to grow by contributing to meaningful projects that combine clean code with practical impact.</p>
+      </div>
+      <div class="facts reveal">
+        <div><span>Focus</span><span>Full stack development</span></div>
+        <div><span>Studying</span><span>B.Tech CSE, 2024 to 2028</span></div>
+        <div><span>Based in</span><span>Karkala, Karnataka</span></div>
+        <div><span>Interests</span><span>Open source, AI, exploring</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="wrap">
+    <span class="eyebrow reveal">Experience</span>
+    <h2 class="reveal">Professional journey</h2>
+    <div class="timeline">
+      <div class="tl reveal">
+        <span class="when">2026</span>
+        <h3>Road to Wiki Cohort 2: Outstanding Contributor</h3>
+        <div class="org">Wikimedia Foundation</div>
+        <p>Selected for the Wikipedia technical ecosystem program and recognised with an Outstanding Contributor award.</p>
+      </div>
+      <div class="tl reveal">
+        <span class="when">2026</span>
+        <h3>GSSoC'26 Contributor (Top 3%)</h3>
+        <div class="org">GirlScript Summer of Code 2026</div>
+        <p>Ranked in the top 3% of contributors in one of India's largest open source programs.</p>
+      </div>
+      <div class="tl reveal">
+        <span class="when">2026</span>
+        <h3>Skill Development Intern</h3>
+        <div class="org">GAwC Renewables LLP</div>
+        <p>Applied Python to support internal skill-development and automation tasks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow reveal">Education</span>
+    <h2 class="reveal">Where I've studied</h2>
+    <div class="edu">
+      <div class="card reveal">
+        <span class="when">2024 to 2028</span>
+        <h3>B.Tech in Computer Science &amp; Engineering</h3>
+        <div class="sub">N M A M Institute of Technology, Karkala</div>
+        <span class="score">CGPA 8.45</span>
+      </div>
+      <div class="card reveal">
+        <span class="when">2022 to 2024</span>
+        <h3>Pre-University (Class XII)</h3>
+        <div class="sub">Karkala Jnanasudha Pre-University College</div>
+        <span class="score">92%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow reveal">Skills</span>
+    <h2 class="reveal">Tools I work with</h2>
+    <div class="skills">
+      <div class="card reveal"><h3>Languages</h3><div class="chips"><span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">C</span></div></div>
+      <div class="card reveal"><h3>Frontend</h3><div class="chips"><span class="chip">React.js</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span></div></div>
+      <div class="card reveal"><h3>Backend</h3><div class="chips"><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">REST APIs</span><span class="chip">JWT</span></div></div>
+      <div class="card reveal"><h3>Databases</h3><div class="chips"><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Firebase</span></div></div>
+      <div class="card reveal"><h3>Tools</h3><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Postman</span><span class="chip">VS Code</span><span class="chip">Docker</span></div></div>
+      <div class="card reveal"><h3>Concepts</h3><div class="chips"><span class="chip">OOP</span><span class="chip">DBMS</span><span class="chip">DSA</span><span class="chip">Operating Systems</span><span class="chip">Computer Networks</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow reveal">Projects</span>
+    <h2 class="reveal">Things I've built</h2>
+    <div class="projects">
+
+      <article class="card proj reveal">
+        <div class="top"><h3>Campus Bus Tracker</h3><span class="date">Mini Project</span></div>
+        <ul>
+          <li>Nitte Bus Tracker: a web app that helps students and staff check college bus routes, timings and stops to the Nitte campus.</li>
+          <li>Search by location or bus name and view every stop along each route through a simple, easy-to-use interface.</li>
+          <li>Bus data is stored in a JSON file and loaded in the browser with vanilla JavaScript.</li>
+        </ul>
+        <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">JSON</span></div>
+        <div class="plinks">
+          <a href="https://github.com/Ishta-P-Jain/Campus-Bus-Tracker-MiniProject" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+        </div>
+      </article>
+
+      <article class="card proj reveal">
+        <div class="top"><h3>CloudGuard AI</h3><span class="date">2026</span></div>
+        <ul>
+          <li>Full-stack cloud security auditing tool that scans simulated AWS environments (S3, IAM, EC2) via LocalStack and detects 10+ categories of misconfigurations with a dynamic 0 to 100 risk score.</li>
+          <li>Layered FastAPI backend with SQLAlchemy and Pydantic, backed by a 32-test Pytest suite.</li>
+          <li>Groq LLM integration for remediation guidance with caching and a daily request cap, plus PDF reports and PostgreSQL audit history.</li>
+        </ul>
+        <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">React</span><span class="chip">PostgreSQL</span><span class="chip">Docker</span></div>
+        <div class="plinks">
+          <a href="https://github.com/Ishta-P-Jain/CloudGuard-AI" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+          <a href="https://cloudguard-ai-three.vercel.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live demo</a>
+        </div>
+      </article>
+
+      <article class="card proj reveal">
+        <div class="top"><h3>Unnathi</h3><span class="date">Feb to Mar 2026</span></div>
+        <ul>
+          <li>Women empowerment platform with scholarship, government scheme and internship discovery modules, built for Her-a-thon 2026.</li>
+          <li>AI chatbot (HerBot) using the OpenRouter API to answer queries through a React conversational UI.</li>
+          <li><strong>Winner</strong> of the Her-a-thon 2026 intercollege hackathon.</li>
+        </ul>
+        <div class="chips"><span class="chip">React.js</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">React Router</span><span class="chip">OpenRouter API</span></div>
+        <div class="plinks">
+          <a href="https://github.com/AtmikaNayak/Unnathi" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+          <a href="https://unnathi-sage.vercel.app/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>Live demo</a>
+        </div>
+      </article>
+
+      <article class="card proj reveal">
+        <div class="top"><h3>Hope Orphanage</h3><span class="date">Jan to Mar 2026</span></div>
+        <ul>
+          <li>Orphanage management system with a layered architecture (controllers, services, repositories) across 15+ REST APIs supporting 3 user roles.</li>
+          <li>Normalized MySQL schema covering children, donors, adoptions, donations and users.</li>
+          <li>OTP email verification to reduce fake registrations, plus a multi-type donation system with offline visit scheduling.</li>
+        </ul>
+        <div class="chips"><span class="chip">React.js</span><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">MySQL</span><span class="chip">JWT</span><span class="chip">Nodemailer</span></div>
+        <div class="plinks">
+          <a href="https://github.com/Ishta-P-Jain/Orphanage-Management-System" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow reveal">Recognition</span>
+    <h2 class="reveal">Achievements</h2>
+    <div class="ach">
+      <div class="card reveal"><span class="tag">2026 &middot; Wikimedia Foundation</span><h3 style="margin-top:8px;font-size:1.05rem">Outstanding Contributor, Road to Wiki Cohort 2</h3><p>Recognised for contributions to the Wikipedia technical ecosystem program.</p></div>
+      <div class="card reveal"><span class="tag">2026 &middot; Hackathon</span><h3 style="margin-top:8px;font-size:1.05rem">Winner, Her-a-thon 2026</h3><p>Built Unnathi, a women empowerment platform with an AI-powered chatbot for real-time guidance.</p></div>
+      <div class="card reveal"><span class="tag">2026 &middot; Open Source</span><h3 style="margin-top:8px;font-size:1.05rem">GSSoC'26 Contributor, Top 3%</h3><p>Ranked in the top 3% among contributors at GirlScript Summer of Code 2026.</p></div>
+      <div class="card reveal"><span class="tag">2025 &middot; Hackathon</span><h3 style="margin-top:8px;font-size:1.05rem">Winner, Techrangers 1.1</h3><p>Built a University Course Registration System in Java at an intercollege hackathon.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow reveal">Contact</span>
+    <h2 class="reveal">Let's connect</h2>
+    <div class="contact-grid">
+      <div class="reveal">
+        <p>Have an idea, an opportunity or just want to say hello? Send a message and I'll get back to you.</p>
+        <div class="clinks">
+          <a href="mailto:ishta.p.jain006@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>ishta.p.jain006@gmail.com</a>
+          <a href="https://www.linkedin.com/in/ishta-p-jain/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3V9.5zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4V9.5z"/></svg>linkedin.com/in/ishta-p-jain</a>
+          <a href="https://github.com/Ishta-P-Jain" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>github.com/Ishta-P-Jain</a>
+        </div>
+      </div>
+      <form id="contact-form" class="reveal" novalidate>
+        <label>Name<input type="text" name="name" required placeholder="Your name"></label>
+        <label>Email<input type="email" name="email" required placeholder="you@example.com"></label>
+        <label>Message<textarea name="message" required placeholder="What would you like to talk about?"></textarea></label>
+        <button class="btn primary" type="submit" style="justify-content:center">Send message</button>
+        <div class="status" id="status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="year"></span> Ishta P Jain. Designed and built with curiosity.</div>
+</footer>
+
+<script>
+  // ---- Theme toggle (remembers choice; falls back to system preference) ----
+  var root = document.documentElement;
+  var saved = null;
+  try { saved = localStorage.getItem("theme"); } catch (e) {}
+  var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  root.setAttribute("data-theme", saved || (prefersDark ? "dark" : "light"));
+  document.getElementById("theme").addEventListener("click", function () {
+    var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+  });
+
+  // ---- Mobile menu ----
+  var links = document.getElementById("links");
+  document.getElementById("menu").addEventListener("click", function () { links.classList.toggle("open"); });
+  links.querySelectorAll("a").forEach(function (a) {
+    a.addEventListener("click", function () { links.classList.remove("open"); });
+  });
+
+  // ---- Scroll reveal animation ----
+  var items = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.12 });
+    items.forEach(function (el) { io.observe(el); });
+  } else {
+    items.forEach(function (el) { el.classList.add("in"); });
+  }
+
+  // ---- Contact form ----
+  // 1) Create a free form at https://formspree.io and paste its ID below (the part after /f/).
+  // 2) Until then, the form falls back to opening your email app with the message filled in.
+  var FORMSPREE_ID = "YOUR_FORM_ID";
+  var EMAIL = "ishta.p.jain006@gmail.com";
+  var form = document.getElementById("contact-form");
+  var statusEl = document.getElementById("status");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var name = form.name.value.trim(), email = form.email.value.trim(), message = form.message.value.trim();
+    if (!name || !email || !message || !/^\S+@\S+\.\S+$/.test(email)) {
+      statusEl.textContent = "Please fill in all fields with a valid email.";
+      return;
+    }
+    if (FORMSPREE_ID === "YOUR_FORM_ID") {
+      var subject = encodeURIComponent("Portfolio message from " + name);
+      var body = encodeURIComponent(message + "\n\nFrom: " + name + " (" + email + ")");
+      window.location.href = "mailto:" + EMAIL + "?subject=" + subject + "&body=" + body;
+      statusEl.textContent = "Opening your email app...";
+      return;
+    }
+    statusEl.textContent = "Sending...";
+    fetch("https://formspree.io/f/" + FORMSPREE_ID, {
+      method: "POST",
+      headers: { "Accept": "application/json", "Content-Type": "application/json" },
+      body: JSON.stringify({ name: name, email: email, message: message })
+    }).then(function (r) {
+      if (r.ok) { form.reset(); statusEl.textContent = "Thank you! Your message has been sent."; }
+      else { statusEl.textContent = "Something went wrong. Please email me directly."; }
+    }).catch(function () { statusEl.textContent = "Network error. Please email me directly."; });
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
