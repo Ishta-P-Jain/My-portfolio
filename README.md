@@ -4,54 +4,6 @@ Live : https://myportfolio-alpha-eosin-27.vercel.app/
 
 A pastel, playful personal portfolio built with plain HTML, CSS and a little JavaScript. No frameworks and no build step, so you can open it straight in a browser.
 
-## Features
-
-- Pastel "sticker" design with floating shapes and a bouncy pop-in animation as you scroll
-- Light and dark mode toggle (remembers your choice and follows your system setting the first time)
-- Sections: Hero, About, Experience timeline, Education, Skills, Projects, Achievements, Contact
-- Contact form (works with Formspree, with an email fallback until you set it up)
-- Downloadable resume button
-- Responsive layout with a mobile menu
-- Respects the "reduce motion" accessibility setting
-
-## Project structure
-
-```
-portfolio/
-├── index.html                 # page content and the small script (theme, menu, animations, form)
-├── style.css                  # all styling (colours, layout, animations, dark mode)
-├── Ishta_P_Jain_Resume.pdf    # you need to add this file (see Setup)
-└── README.md
-```
-
-## Setup
-
-### 1. Add your resume
-Export your resume from Overleaf and save it in this folder as `Ishta_P_Jain_Resume.pdf`. The "Download resume" button links to this exact name.
-
-### 2. Turn on the contact form
-1. Create a free form at [formspree.io](https://formspree.io).
-2. Copy the form ID (the part after `/f/` in the form URL).
-3. In `index.html`, find this line near the bottom and replace the placeholder:
-
-   ```js
-   var FORMSPREE_ID = "YOUR_FORM_ID";
-   ```
-
-Until you do this, the form opens your email app with the message filled in, so no messages are lost.
-
-### 3. Check your project details
-The NIWE Wind Stations bullets are drafts. Edit them in `index.html` (search for `NIWE Wind Stations`) so they describe what you actually built.
-
-## Run locally
-
-Open `index.html` in your browser. Or, to preview it like a real site:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
 
 ## Deploy
 
